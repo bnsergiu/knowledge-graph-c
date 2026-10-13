@@ -1,0 +1,30 @@
+# Generated builds, test output, and coverage
+/build/
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dylib
+*.dll
+*.d
+*.gcda
+*.gcno
+*.gcov
+compile_commands.json
+
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and OS metadata
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
